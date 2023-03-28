@@ -409,6 +409,9 @@ img {
   font-weight: 500;
   margin-bottom: 16px;
 }
+.footer-subscrible-wrapper {
+  display: flex;
+}
 .footer-subscrible-input {
   color: var(--accent-text-color);
   background-color: var(--header-color);
@@ -427,6 +430,9 @@ img {
   color: var(--primary-white-color);
 }
 .footer-subscrible-btn {
+  display: flex;
+  text-align: center;
+  padding: 8px 16px 8px 24px;
   border-color: transparent;
   min-width: 165px;
   height: 40px;
@@ -438,8 +444,7 @@ img {
   background-color: var(--pressed-state-color);
 }
 .footer-social-subscrible-icon {
-  top: 20px;
-  left: 24px;
+  margin-left: 16px;
 }
 
 /* --------------Portfolio page-------------- */
@@ -632,7 +637,6 @@ img {
   display: block;
   outline: none;
   border-color: var(--primary-brand);
-  margin-bottom: 4px;
 }
 .modal-form-input:focus + .form-icon {
   fill: var(--primary-brand);
@@ -691,9 +695,6 @@ img {
 .form-checkbox:checked + .policy-icon {
   background-color: var(--pressed-state-color);
   border-color: var(--pressed-state-color);
-  /* background-image: url(../images/icons.svg#icon-click);
-  background-size: contain;
-  background-origin: border-box; */
 }
 .form-checkbox:focus + .form-label-checkbox::before {
   background-color: var(--pressed-state-color);
